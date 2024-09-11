@@ -1,0 +1,38 @@
+body{
+    max-width: 100%;
+}
+
+.list_example {
+    display:grid;
+    margin: 10px;
+    grid-template-rows: repeat(3, minmax(auto-fit, 120px));
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    grid-column: span 2;
+}
+
+.ordered{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul > li::marker{
+    /* content: '*'; */
+    color: hotpink;
+    font-size: 1.2em;
+}
+
+ol > li:nth-child(1)::marker{
+    color:hotpink;
+    font-size: 25px;
+}

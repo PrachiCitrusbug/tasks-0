@@ -1,0 +1,23 @@
+body{
+    max-width: 100%;
+    --padding: 1em;
+}
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-item: baseline;
+    align-item: space-evenly;
+    gap: 10px;
+}
+
+.product {
+    width: calc((100% - 20px)/3 - 2*var(--padding) - 2px);
+    padding: var(--padding);
+    border: 1px inset powderblue;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
