@@ -1,0 +1,16 @@
+.parent-div {
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    margin: 4rem 0 0 10rem;
+}
+
+.child-div {
+    padding: 50px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: -50%;
+    left: 75%;
+    color: rgb(211, 206, 206);
+}

@@ -1,0 +1,34 @@
+table{
+    margin: 5px 0 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    margin-bottom: 10px;
+}
+
+td, th {
+    max-width: 150px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(74, 97, 97);
+    color: whitesmoke;
+}
+
+/* tr:nth-child(even) td, th{
+    border: 1px solid darkslategray;
+} */
+
+tr:first-child th{
+    background-color: darkslategray;
+    color: beige;
+}
+
+tr th{
+  background-color: darkslategray;
+  color: beige;  
+}

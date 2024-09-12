@@ -2,7 +2,23 @@ body{
     max-width: 100%;
 }
 
-.list_example {
+.link-example {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.link-example a{
+    background-color: plum;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .2em .5em;
+}
+
+.list-example {
     display:grid;
     margin: 10px;
     grid-template-rows: repeat(3, minmax(auto-fit, 120px));
